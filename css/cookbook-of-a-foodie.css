@@ -11,6 +11,7 @@
     font-weight: 700;
     /* text-shadow:2px 2px #e79b65; */
 }
+/* shared styling end */
 
 /* header styling start */
 .nav-1{
@@ -53,3 +54,13 @@
     font-weight: 700;
 }
 /* header styling end */
+
+/* footer styling start */
+footer{
+    font-size: 2em;
+    color: #f3a545;
+    text-align: center;
+    background-color: #311501;
+    padding: 30px;
+}
+/* footer styling end */
