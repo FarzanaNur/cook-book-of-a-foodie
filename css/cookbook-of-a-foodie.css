@@ -197,6 +197,18 @@ footer{
         font-size: 2em;
     }
 }
+/* responsive medium-small screen */
+@media(max-width:780px){
+    .nav-ul li a{
+        display: block;
+    }
+    .section{
+        margin: 25px;
+    }
+    .recipe-heading{
+        font-size: 1.2em;
+    }
+}
 /* responsive small screen */
 @media(max-width:412px){
     .button-primary{
