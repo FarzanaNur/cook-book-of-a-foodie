@@ -40,6 +40,9 @@ body{
     box-shadow:0px 0px 2px 4px #4921045e;
     border-radius: 20px;
 }
+.column-reverse{
+    flex-direction: column-reverse;
+}
 /* shared styling end */
 
 /* header styling start */
@@ -142,7 +145,7 @@ div.scrolling-image-container img {
     font-size: .9em;
 }
 .recipe-container p{
-    font-size: .7em;
+    font-size: .8em;
 }
 
 /* main section end */
@@ -170,8 +173,9 @@ footer{
         height: auto; 
     }
     .recipe-container{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
+    
 }
 /* responsive medium screen */
 @media(max-width:1030px){
@@ -190,11 +194,15 @@ footer{
         flex-direction: column;
         gap: 15px;
     }
+    
     .recipe-container{
         font-size: 2em;
     }
-    .recipe-heading{
+    /* .recipe-heading{
         font-size: 2em;
+    } */
+    .recipe-heading{
+        font-size: 1.2em;
     }
 }
 /* responsive medium-small screen */
